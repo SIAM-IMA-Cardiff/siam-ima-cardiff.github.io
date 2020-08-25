@@ -1,0 +1,11 @@
+
+docs:
+
+- title: Home
+  url: index.html
+
+- title: People
+  url: about.html
+
+- title: Contact us
+  url: contact.html
