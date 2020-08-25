@@ -1,6 +1,7 @@
 ---
 layout: default
-navigation: 1
+title: Welcome!
+navigation: 00
 ---
 
 

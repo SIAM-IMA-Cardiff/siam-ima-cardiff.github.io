@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <style>
+
+/* Change the link color to #111 (black) on hover */
+
+    </style>
+
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+      <title>SIAM Student Chapter Delft - {{ page.title }}</title>
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css"/>
+      <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css"/>
+      <link rel="alternate" type="application/atom+xml" title="SIAM Student Chapter Delft" href="{{ site.baseurl }}/atom.xml"/>
+      <script src="{{ site.baseurl }}/javascripts/scale.fix.js"></script>
+      <script src="{{ site.baseurl }}/javascripts/classList.js"></script>
+      <script src="{{ site.baseurl }}/javascripts/addEventListener.js"></script>
+      <script src="{{ site.baseurl }}/javascripts/theatre.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+      <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.add('visible'); event.stopPropagation();">
+        <div class="sidebar-button-line"></div>
+        <div class="sidebar-button-line"></div>
+        <div class="sidebar-button-line"></div>
+      </div>
+      <h1>SIAM Student Chapter Cardiff</h1>
+      <p>Cardiff University</p>
+    </header>
+    <div id="sidebar" onclick="document.getElementById('sidebar').classList.remove('visible'); event.stopPropagation();">
+      <div class="sidebar-background-1">
+        <div class="sidebar-background-2" onclick="event.stopPropagation();"></div>
+      </div>
+      <div class="sidebar-content" onclick="event.stopPropagation();">
+        <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.remove('visible'); event.stopPropagation();">
+          <div class="sidebar-button-line"></div>
+          <div class="sidebar-button-line"></div>
+          <div class="sidebar-button-line"></div>
+        </div>
+        <div class="sidebar-button-sep"></div>
+        <nav>
+          {% include navigation.html %}
+          <ul>
+            <li class="social-media">
+              <a href="https://twitter.com/SSC_Delft"><span class="fa fa-twitter-square"></span></a>
+              <a href="https://www.facebook.com/siamscdelft"><span class="fa fa-facebook-square"></span></a>
+              <a href="https://plus.google.com/u/0/113921285278807523738"><span class="fa fa-google-plus-square"></span></a>
+              <a href="https://www.youtube.com/channel/UC1JbNMbHRX3kTVDaWU2yI2A"><span class="fa fa-youtube-square"></span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="wrapper">
+      {{ content }}
+
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>

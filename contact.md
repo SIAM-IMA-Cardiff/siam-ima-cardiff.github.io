@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Contact us
 navigation: 3
 ---
 

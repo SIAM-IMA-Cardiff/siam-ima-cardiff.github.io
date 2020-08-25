@@ -1,0 +1,3 @@
+{% assign sorted_pages = (site.pages | sort: 'navigation') %} {% for p in sorted_pages %} {% if p.navigation != nil %}
+{% if page.url == p.url %} {% endif %} {% if p.feed != nil %} {% endif %} {{ p.title }}
+{% endif %} {% endfor %}
