@@ -1,0 +1,29 @@
+---
+layout: body
+---
+
+<section>
+
+  <h1 class="pagetitle">{{ page.title }}</h1>
+  {% if page.category == "news" %}
+    <div class="post-date">posted {{ page.date | date_to_string }}</div>
+  {% endif %}
+  {% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
+  {% if page.cover != nil %}
+    <img
+      class="post-cover"
+      src="{{ page.cover | replace: tag, site.baseurl }}"
+    />
+  {% endif %}
+  {{ content }}
+
+  {% assign post = page %}
+  {% assign post_id = "post" %}
+  {% include media-attachments.html %}
+
+  <div class="clear-floats"/>
+
+</section>
+
+<!-- vim: ts=2:sts=2:sw=2:et:tw=80
+-->

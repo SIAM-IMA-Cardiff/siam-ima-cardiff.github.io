@@ -1,0 +1,17 @@
+    {% if post.attached_media != nil %}<!--
+   -->{% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}<!--
+   --><div
+          class="media-attachments"
+          id="{{ post_id }}-theatre-group"
+          data-baseurl="{{ site.baseurl }}"
+          data-theatre="{{ post.attached_media | jsonify | xml_escape }}">
+        <div><!--
+       -->{% for item in post.attached_media %}<!--
+         --><img
+                class="theatre-data-item"
+                src="{{ item.thumb | replace: tag, site.baseurl }}"
+                onclick="theatre.show('{{ post_id }}-theatre-group', {{ forloop.index0 }})"/><!--
+       -->{% endfor %}<!--
+     --></div>
+      </div><!--
+ -->{% endif %}
