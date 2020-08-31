@@ -133,7 +133,12 @@ strong {
   font-weight: bold;
 }
 
-img {
+
+
+
+
+
+img{
   position: relative;
   margin: 0 auto;
   max-width: 739px;
@@ -147,6 +152,10 @@ img {
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
+
+
+
+
 
 p img {
   display: inline;
@@ -293,8 +302,25 @@ Full-Width Styles
 
 
 
+#logo {
+  display: block;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
 
 header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 25px 0px 40px 0px;
   margin: 0;
   position: absolute;
@@ -311,6 +337,15 @@ header {
   -webkit-font-smoothing: antialiased;
   min-height: 76px;
 }
+
+.title-container{
+flex-grow: 1
+}
+
+.image-container{
+  width: 100px;
+}
+
 header h1 {
   font: 40px/48px "Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f3f3f3;

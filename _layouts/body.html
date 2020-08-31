@@ -10,7 +10,7 @@
 
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-      <title>SIAM Student Chapter Delft - {{ page.title }}</title>
+      <title>SIAM Student Chapter Cardiff - {{ page.title }}</title>
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
       <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css"/>
       <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css"/>
@@ -28,14 +28,25 @@
 
   <body>
 
+
     <header>
-      <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.add('visible'); event.stopPropagation();">
-        <div class="sidebar-button-line"></div>
-        <div class="sidebar-button-line"></div>
-        <div class="sidebar-button-line"></div>
+            <div class = "image-container">
+                    <img src="{{ site.baseurl }}/images/CUident_RGB.jpg" width = "100px">
+            </div>
+      <div class = "title-container">
+        <h1>SIAM Student Chapter Cardiff</h1>
+        <p>Cardiff University</p>
       </div>
-      <h1>SIAM Student Chapter Cardiff</h1>
-      <p>Cardiff University</p>
+
+
+
+      <!-- <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.add('visible'); event.stopPropagation();">
+        <div class="sidebar-button-line"></div>
+        <div class="sidebar-button-line"></div>
+        <div class="sidebar-button-line"></div>
+      </div> -->
+
+
     </header>
     <div id="sidebar" onclick="document.getElementById('sidebar').classList.remove('visible'); event.stopPropagation();">
       <div class="sidebar-background-1">
@@ -52,10 +63,10 @@
           {% include navigation.html %}
           <ul>
             <li class="social-media">
-              <a href="https://twitter.com/SSC_Delft"><span class="fa fa-twitter-square"></span></a>
-              <a href="https://www.facebook.com/siamscdelft"><span class="fa fa-facebook-square"></span></a>
-              <a href="https://plus.google.com/u/0/113921285278807523738"><span class="fa fa-google-plus-square"></span></a>
-              <a href="https://www.youtube.com/channel/UC1JbNMbHRX3kTVDaWU2yI2A"><span class="fa fa-youtube-square"></span></a>
+              <a href="https://twitter.com/CardiffSIAM_IMA"><span class="fa fa-twitter-square"></span></a>
+              <!-- <a href="https://www.facebook.com/siamscdelft"><span class="fa fa-facebook-square"></span></a> -->
+              <!-- <a href="https://plus.google.com/u/0/113921285278807523738"><span class="fa fa-google-plus-square"></span></a>
+              <a href="https://www.youtube.com/channel/UC1JbNMbHRX3kTVDaWU2yI2A"><span class="fa fa-youtube-square"></span></a> -->
             </li>
           </ul>
         </nav>
@@ -80,7 +91,7 @@
       {{ content }}
 
       <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham, based on the site from <a href="https://sscdelft.github.io/social.html"> SSC-Delft</a></small></p>
       </footer>
     </div>
 
