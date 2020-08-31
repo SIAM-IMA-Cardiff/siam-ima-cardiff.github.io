@@ -645,15 +645,19 @@ dt {
   font-weight: 700;
 }
 
+
 header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 25px 0px 40px 0px;
   margin: 0;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  text-align: center;
- background:  #d33749;
+  /* text-align: center; */
+  background: #d33749;
   -moz-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   -o-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
@@ -661,6 +665,15 @@ header {
   z-index: 99;
   -webkit-font-smoothing: antialiased;
   min-height: 76px;
+}
+
+.title-container{
+flex-grow: 1
+}
+
+.image-container{
+  width: 100px;
+    padding: 0px 0px 0px 25px;
 }
 header h1 {
   font: 40px/48px "Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
