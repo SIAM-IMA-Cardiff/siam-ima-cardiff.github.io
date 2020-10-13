@@ -343,7 +343,8 @@ flex-grow: 1
 }
 
 .image-container{
-  width: 100px;
+  max-width: 300px;
+
 }
 
 header h1 {
