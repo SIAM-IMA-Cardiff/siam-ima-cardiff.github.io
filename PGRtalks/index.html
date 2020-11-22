@@ -8,7 +8,7 @@ navigation: 40
 {% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
 {% for post in site.categories.PGRtalks %}
   {% assign post_id = "post-" | append: forloop.index0 %}
-  <div id="{{ post_id }}" {% if forloop.index0 < 5 %} class="post" {% else %} class="post collapsed" {% endif %}>
+  <div id="{{ post_id }}" {% if forloop.index0 < 6 %} class="post" {% else %} class="post collapsed" {% endif %}>
     <div class="header" onclick="document.getElementById('{{ post_id }}').classList.toggle('collapsed')">
       <span class="buttons">
         <span class="fa fa-angle-double-right button-collapse"></span>
