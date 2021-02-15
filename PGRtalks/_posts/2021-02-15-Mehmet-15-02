@@ -1,0 +1,11 @@
+---
+layout: post
+title: "17th February: Goodness-of fit test for multivariate student -t distribution based on Rényi entropy "
+---
+
+
+Title: Goodness-of fit test for multivariate student -t distribution based on Rényi entropy
+
+Speaker: Mehmet Siddik Cadirci
+
+Abstract: The concept of entropy is one of the most basic and important in natural science and information theory. It remains a commonly used measure of uncertainty or the measure of disorder.  I’ve tried to make this accessible about how to use entropy in Statistic. That’s why, in today talks, we provide the proof of L^2 consistency for the k-th nearest neighbour distance estimator of the Renyi entropy for an arbitrary fixed k≥1. We construct the non-parametric test of goodness-of-fit for a class of introduced multivariate Student – t distributions based on a maximum entropy principle. The theoretical results are followed by numerical studies on simulated samples. 
