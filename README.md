@@ -1,3 +1,3 @@
 # SSC-Cardiff
-https://ostlert.github.io/SSC-Cardiff/
-any issues, email me at ostlert@cardiff.ac.uk
+https://siam-ima-cardiff.github.io
+any issues, email Jack at furbyjl@cardiff.ac.uk
