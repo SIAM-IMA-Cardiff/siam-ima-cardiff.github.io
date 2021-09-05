@@ -1,0 +1,27 @@
+---
+layout: default
+title: Committee
+navigation: 2
+---
+
+{% assign board_members = site.board_members | sort: 'order' %}
+{% for board_member in board_members %}
+  {% assign member_id = "member-" | append: forloop.index0 %}
+  <div id="{{ member_id }}" class="board-member">
+    <div class="summary">
+      <img src="{{ site.baseurl }}/images/Committee/{{ board_member.image }}"/>
+      <p class="name">{{ board_member.name }}</p>
+      {% if board_member.function %}
+        <p class="function">{{ board_member.function }}</p>
+      {% endif %}
+      <p class="contact">
+        <a href="mailto:{{ board_member.email }}"><span class="fa fa-envelope"></span></a>.
+        <a href="{{ board_member.website }}"><span class="fa fa-home"></span></a>
+      </p>
+    </div>
+    <p>
+      {{ board_member.content }}
+    </p>
+    <div class="clear"></div>
+  </div>
+{% endfor %}

@@ -3,3 +3,10 @@ description: Maximising space, minimising risk.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
+collections_dir: collections
+
+collections:
+  board_members:
+    output: false
+  talks:
+    output: true

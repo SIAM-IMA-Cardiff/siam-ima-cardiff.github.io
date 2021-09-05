@@ -80,7 +80,7 @@
     <div id="latest-news-bar">
      <h1>Latest news</h1>
      {% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
-     {% for post in site.categories.news limit: 5 %}
+     {% for post in site.posts limit: 5 %}
        <a class="news-item" href="{{ site.baseurl }}{{ post.url }}">
          <p class="title">{{ post.title }}</p>
          <p class="date">posted {{ post.date | date_to_string }}</p>
