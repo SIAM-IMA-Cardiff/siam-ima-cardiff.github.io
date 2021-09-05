@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Contact us
-navigation: 3
+navigation: 5
+permalink: /contact/
 ---
 We are always keen to let students get involved in SIAM activities, so if you want to know more or want to get involved, please email us at <a href="mailto:siam-ima@cardiff.ac.uk">siam-ima@cardiff.ac.uk</a>.
 
