@@ -1,12 +1,13 @@
 ---
 layout: default
 title: News
-navigation: 20
+navigation: 4
 feed: /atom.xml
+permalink: /news/
 ---
 
-{% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
-{% for post in site.categories.news %}
+{% assign activities = site.posts | sort: 'date' | reverse %}
+{% for post in activities %}
   {% assign post_id = "post-" | append: forloop.index0 %}
   <div id="{{ post_id }}" {% if forloop.index0 < 5 %} class="post" {% else %} class="post collapsed" {% endif %}>
     <div class="header" onclick="document.getElementById('{{ post_id }}').classList.toggle('collapsed')">
