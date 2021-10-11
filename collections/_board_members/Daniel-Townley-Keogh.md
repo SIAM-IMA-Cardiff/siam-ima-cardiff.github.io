@@ -1,6 +1,6 @@
 ---
 name: Daniel Townley-Keogh
-image: Daniel-Townley-Keogh.png
+image: Daniel-Townley-Keogh.jpg
 function: Welsh Communications Officer
 email: townley-keoghdp@cardiff.ac.uk
 order: 8
