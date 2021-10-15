@@ -1,0 +1,49 @@
+.committee-image-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.committee-image {
+	height:100%;
+	width: auto;
+	object-fit: cover;
+}
+
+.committee-image, .committee-image-container {
+	max-height: 500px;
+	max-width: 100%;
+}
+
+
+
+@include media-breakpoint-down(sm) {
+	.committee-image-container {
+		max-height:250px;
+	}
+}
+
+@include media-breakpoint-up(sm) {
+	.committee-image-container {
+		height:250px;
+	}
+}
+@include media-breakpoint-up(md) {
+	.committee-image-container {
+		height:275px;
+	}
+}
+@include media-breakpoint-up(lg) {
+	.committee-image-container {
+		height:350px;
+	}
+}
+@include media-breakpoint-up(xl) {
+	.committee-image-container {
+		height:350px;
+	}
+}
+@include media-breakpoint-up(xxl) {
+	.committee-image-container {
+		height:350px;
+	}
+}

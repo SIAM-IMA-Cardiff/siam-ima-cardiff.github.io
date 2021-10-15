@@ -1,104 +1,58 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
-  <head>
-    <style>
+	{% include header.html %}
 
-/* Change the link color to #111 (black) on hover */
+	<body>
 
-    </style>
+		{% include nav.html %}
 
-      <meta charset="utf-8"/>
-      <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-      <title>SIAM-IMA Student Chapter Cardiff - {{ page.title }}</title>
-      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
-      <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css"/>
-      <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css"/>
-      <link rel="alternate" type="application/atom+xml" title="SIAM Student Chapter Delft" href="{{ site.baseurl }}/atom.xml"/>
-      <script src="{{ site.baseurl }}/javascripts/scale.fix.js"></script>
-      <script src="{{ site.baseurl }}/javascripts/classList.js"></script>
-      <script src="{{ site.baseurl }}/javascripts/addEventListener.js"></script>
-      <script src="{{ site.baseurl }}/javascripts/theatre.js"></script>
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-      <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-    </head>
-  </head>
+		<div class="container">
+			<h1 class="display-3 border-bottom mb-3">
+				{% if page.feed != nil %}
+					<a href="{{ feed | prepend: site.baseurl }}" class="link-secondary"><i class="bi bi-rss-fill"></i></a>
+				{% endif %}
+				{{ page.title }}
+			</h1>
+			<div class="mb-5">
+				{{ content }}
+			</div>
 
-  <body>
+				<div id="latest-news-bar" class="mb-2">
+					<h2 class="display-5">Latest news</h2>
 
+					<div class="row row-cols-1 row-cols-md-3 g-4">
 
-    <header>
-            <div class = "image-container">
-                    <img src="{{ site.baseurl }}/images/Background/SIAM-Logo-PNG/siam_logo_black_cobranded_horizontal.png" width = "200px">
-                          <img src="{{ site.baseurl }}/images/Background/imalogo.png" width = "200px">
-            </div>
+						{% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
+						{% for post in site.posts limit: 5 %}
+							<div class="col">
+								<div class="card h-100">
+									<div class="card-body">
+										<div class="row">
+											{% if post.cover != nil %}
+												<div class="col-md-4">
+													<img class="img-fluid rounded-start" src="{{ site.baseurl }}/images/news/{{ post.cover }}"/>
+												</div>
+												<div class="col-md-8">
+											{% else %}
+												<div class="col-md-12">
+											{% endif %}
+												<h5 class="card-title">{{ post.title }}</h5>
+												<h6 class="card-subtitle mb-2 text-muted">posted {{ post.date | date_to_string }}</h6>
+											</div>
+										</div>
+									</div>
+									<div class="card-footer bg-white border-top-0">
+										<a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Go to post</a>
+									</div>
+								</div>
+							</div>
 
+						{% endfor %}
+					</div>
+				</div>
+			</div>
 
-      <div class = "title-container">
-        <h1>SIAM-IMA Student Chapter Cardiff</h1>
-        <p>Cardiff University</p>
-      </div>
-
-
-
-
-      <!-- <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.add('visible'); event.stopPropagation();">
-        <div class="sidebar-button-line"></div>
-        <div class="sidebar-button-line"></div>
-        <div class="sidebar-button-line"></div>
-      </div> -->
-
-
-    </header>
-    <div id="sidebar" onclick="document.getElementById('sidebar').classList.remove('visible'); event.stopPropagation();">
-      <div class="sidebar-background-1">
-        <div class="sidebar-background-2" onclick="event.stopPropagation();"></div>
-      </div>
-      <div class="sidebar-content" onclick="event.stopPropagation();">
-        <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.remove('visible'); event.stopPropagation();">
-          <div class="sidebar-button-line"></div>
-          <div class="sidebar-button-line"></div>
-          <div class="sidebar-button-line"></div>
-        </div>
-        <div class="sidebar-button-sep"></div>
-        <nav>
-          {% include navigation.html %}
-          <ul>
-            <li class="social-media">
-              <a href="mailto:siam-ima@cardiff.ac.uk"><span class="fa fa-envelope-square"></span></a>
-              <a href="https://twitter.com/CardiffSIAM_IMA"><span class="fa fa-twitter-square"></span></a>
-              <!-- <a href="https://www.facebook.com/siamscdelft"><span class="fa fa-facebook-square"></span></a> -->
-              <!--<a href="https://www.youtube.com/channel/UC1JbNMbHRX3kTVDaWU2yI2A"><span class="fa fa-youtube-square"></span></a> -->
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-    <div id="latest-news-bar">
-     <h1>Latest news</h1>
-     {% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
-     {% for post in site.posts limit: 5 %}
-       <a class="news-item" href="{{ site.baseurl }}{{ post.url }}">
-         <p class="title">{{ post.title }}</p>
-         <p class="date">posted {{ post.date | date_to_string }}</p>
-         {% if post.cover != nil %}
-           <img class="cover" src="{{ post.cover | replace: tag, site.baseurl }}"/>
-         {% endif %}
-       </a>
-     {% endfor %}
-     </ul>
-   </div>
-    <div class="wrapper">
-      {{ content }}
-
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham, based on the site from <a href="https://sscdelft.github.io/social.html"> SSC-Delft</a></small></p>
-      </footer>
-    </div>
-
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-  </body>
+		</div>
+	</body>
 </html>

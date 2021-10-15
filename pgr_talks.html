@@ -7,29 +7,26 @@ permalink: /PGR-talks/
 
 {% assign talks = site.talks | sort: 'date' | reverse %}
 {% for post in talks %}
-  {% assign post_id = "post-" | append: forloop.index0 %}
-  <div id="{{ post_id }}" {% if forloop.index0 < 6 %} class="post" {% else %} class="post collapsed" {% endif %}>
-    <div class="header" onclick="document.getElementById('{{ post_id }}').classList.toggle('collapsed')">
-      <span class="buttons">
-        <span class="fa fa-angle-double-right button-collapse"></span>
-        <span class="fa fa-angle-double-down button-expand"></span>
-      </span>
-      <span class="date">{{ post.date | date_to_string }}</span>
-      <span class="title">{{ post.title }}</span>
-      <a class="link" href="{{ site.baseurl }}{{ post.url }}" onclick="event.stopPropagation();"><span class="fa fa-link"></span></a>
-    </div>
-    <div class="body">
-      {% if post.cover != nil %}
-        <img
-          class="post-cover"
-          src="{{ post.cover | replace: tag, site.baseurl }}"
-        />
-      {% endif %}
-      <div class="content">
-        {{ post.content }}
-      </div>
-      <div class="clear-floats"/>
-      {% include media-attachments.html %}
-    </div>
-  </div>
+	{% assign post_id = "post-" | append: forloop.index0 %}
+	<div id="{{ post_id }}">
+		<h3>{{ post.title }}</h3>
+		<p>
+			{% if post.speaker != nil %}
+				{{ post.speaker }}
+				|
+			{% endif %}
+			<span class="badge bg-secondary">{{ post.date | date_to_string }}</span>
+		</p>
+		<div class="talk-container overflow-hidden">
+			<div>
+				{{ post.content }}
+			</div>
+			{% include media-attachments.html %}
+		</div>
+		<div class="text-center mt-1">
+			<a class="btn btn-outline-primary btn-sm" href="{{ site.baseurl }}{{ post.url }}">Continue reading</a>
+		</div>
+	</div>
+
+	<hr />
 {% endfor %}

@@ -1,0 +1,10 @@
+<ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-grow-1">
+	{% assign sorted_pages = (site.pages | sort: 'navigation') %}
+	{% for p in sorted_pages %}
+		{% if p.navigation != nil %}
+			<li class="{{ current }} nav-item">
+				<a href="{{ p.url | prepend: site.baseurl | replace: 'index.html', '' }}" class="nav-link {% if page.url == p.url %}active{% endif %}">{{ p.title }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>

@@ -1,9 +1,11 @@
-title: Safe Seating Solutions
-description: Maximising space, minimising risk.
+title: SIAM-IMA Student Chapter Cardiff
+description: Cardiff University Society for industrial and applied mathematics
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-slate
 collections_dir: collections
+
+sass:
+  sass_dir: assets/css
 
 collections:
   board_members:

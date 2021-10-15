@@ -1,0 +1,45 @@
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-cardiff-red">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="{{site.url}}">
+				<h1>SIAM-IMA Student Chapter Cardiff</h1>
+				<p>Cardiff University</p>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse flex-wrap flex-row-reverse" id="navbarSupportedContent">
+				<div id="nav-extras" class="d-none d-lg-flex flex-row-reverse">
+					<ul class="navbar-nav p-0 m-0 list-inline">
+						<li data-toggle="tooltip" title="Send us an email" class="list-inline-item m-0">
+							<a href="mailto:siam-ima@cardiff.ac.uk" class="nav-link ps-1 pe-1 nav-link">
+								<i id="social-tw" class="h2 bi-envelope-fill"></i>
+							</a>
+						</li>
+						<li data-toggle="tooltip" title="Follow us on Twitter" class="list-inline-item m-0">
+							<a href="https://twitter.com/CardiffSIAM_IMA" class="nav-link ps-1 pe-1 nav-link">
+								<i id="social-tw" class="h2 bi-twitter"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				{% include menu.html %}
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="w-100 bg-light mb-2">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col">
+				<img src="{{ site.baseurl }}/images/Background/siam_logo_black_cobranded_horizontal.png" class="nav_logo mx-auto d-block">
+			</div>
+			<div class="col">
+				<img src="{{ site.baseurl }}/images/Background/imalogo.png" class="nav_logo mx-auto d-block">
+			</div>
+		</div>
+	</div>
+	</div>
+
+</header>

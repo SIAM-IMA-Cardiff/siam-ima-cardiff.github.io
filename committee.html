@@ -6,23 +6,34 @@ permalink: /committee/
 ---
 
 {% assign board_members = site.board_members | sort: 'order' %}
-{% for board_member in board_members %}
-  {% assign member_id = "member-" | append: forloop.index0 %}
-  <div id="{{ member_id }}" class="board-member">
-    <div class="summary">
-      <img src="{{ site.baseurl }}/images/Committee/{{ board_member.image }}"/>
-      <p class="name">{{ board_member.name }}</p>
-      {% if board_member.function %}
-        <p class="function">{{ board_member.function }}</p>
-      {% endif %}
-      <p class="contact">
-        <a href="mailto:{{ board_member.email }}"><span class="fa fa-envelope"></span></a>.
-        <a href="{{ board_member.website }}"><span class="fa fa-home"></span></a>
-      </p>
-    </div>
-    <p>
-      {{ board_member.content }}
-    </p>
-    <div class="clear"></div>
-  </div>
-{% endfor %}
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+		{% for board_member in board_members %}
+			{% assign member_id = "member-" | append: forloop.index0 %}
+			<div class="col">
+			<div id="{{ member_id }}" class="card h-100">
+				<div class="committee-image-container p-2">
+					<img src="{{ site.baseurl }}/images/Committee/{{ board_member.image }}" class="committee-image rounded mx-auto d-block"/>
+				</div>
+				<div class="card-body">
+					<h3 class="card-title">{{ board_member.name }}</h3>
+					{% if board_member.function %}
+						<h4 class="card-text text-secondary">{{ board_member.function }}</h4>
+					{% endif %}
+					<div>
+						{% if board_member.email %}
+							<a href="mailto:{{ board_member.email }}" class="text-cardiff-red" data-toggle="tooltip" title="Send email"><i class="h4 bi-envelope-fill"></i></a>
+						{% endif %}
+						{% if board_member.website %}
+							<a href="{{ board_member.website }}" class="text-cardiff-red" data-toggle="tooltip" title="View webpage"><i class="h4 bi bi-house-fill"></i></a>
+						{% endif %}
+					</div>
+					<p class="card-text">
+						{{ board_member.content }}
+					</p>
+				</div>
+			</div>
+			</div>
+		{% endfor %}
+
+</div>

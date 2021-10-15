@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Welcome!
-navigation: 00
+show-news: true
 ---
 
 

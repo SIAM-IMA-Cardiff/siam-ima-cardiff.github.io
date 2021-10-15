@@ -1,0 +1,18 @@
+@import "vars";
+
+.nav_logo {
+	width: 200px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+.nav-extras {
+
+}
+
+
+.bg-cardiff-red {
+	--bs-bg-opacity: 1;
+	background-color: $cardiff_red !important;
+}
