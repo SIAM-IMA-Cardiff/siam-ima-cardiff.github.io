@@ -1,6 +1,6 @@
 ---
 name: Michalis Panayides
-image: Michalis-Panayides.png
+image: Michalis-Panayides.jpg
 function: Treasurer
 email: panayidesm@cardiff.ac.uk
 website: https://www.cardiff.ac.uk/people/research-students/view/1710092-panayides-michalis
