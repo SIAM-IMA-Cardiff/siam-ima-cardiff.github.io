@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Introduction to PGR studies"
