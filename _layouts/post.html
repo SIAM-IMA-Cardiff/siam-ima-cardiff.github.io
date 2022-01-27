@@ -10,7 +10,7 @@ layout: body
 	{% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
 	{% if page.cover != nil %}
 		<div>
-			<img class="mx-auto d-block" src="{{ site.baseurl }}/images/news/{{ page.cover }}"/>
+			<img class="mx-auto d-block mw-100" src="{{ site.baseurl }}/images/news/{{ page.cover }}"/>
 		</div>
 	{% endif %}
 	{{ content }}
