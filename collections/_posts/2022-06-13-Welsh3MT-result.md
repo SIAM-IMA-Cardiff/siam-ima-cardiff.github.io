@@ -9,7 +9,7 @@ There were four judges from a variety of mathematical backgrounds, one from each
 
 Talks were given by the following PhD Students:
 
-* Generalised Stirling Operators, with Applications - [Chadaphorn Punkumkerd (Swansea University)]
+* Generalised Stirling Operators, with Applications - Chadaphorn Punkumkerd (Swansea University)
 
 * Inside the Bitcoin system - [Gabriela Filipkowska (Cardiff University)](https://www.cardiff.ac.uk/people/research-students/view/2575982-Gabriela-Filipkowska)
 
