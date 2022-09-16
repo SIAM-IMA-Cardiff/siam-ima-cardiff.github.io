@@ -3,4 +3,3 @@
 set -e
 
 bundle exec jekyll build
-bundle exec script/validate-html
