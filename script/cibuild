@@ -2,6 +2,8 @@
 
 set -e
 
+gem install html-proofer
+
 bundle exec jekyll build
 bundle exec htmlproofer ./_site --check-html --check-sri
 bundle exec rubocop -D
