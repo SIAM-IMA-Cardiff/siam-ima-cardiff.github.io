@@ -1,6 +1,6 @@
 ---
 name: Steffan Jones
-image: Steffan-Jones.jpg
+image: Steffan-Jones.jpeg
 function: Welsh Communications Officer
 email: JonesSS3@cardiff.ac.uk
 order: 9
