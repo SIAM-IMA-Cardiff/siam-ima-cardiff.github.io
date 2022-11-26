@@ -1,0 +1,22 @@
+---
+layout: default
+title: Calendar
+navigation: 5
+permalink: /calendar/
+---
+
+<link href="{{ '/assets/fullcalendar/main.css' | relative_url }}" rel='stylesheet' />
+<script src="{{ '/assets/fullcalendar/main.js' | relative_url }}"></script>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var calendarEl = document.getElementById('calendar');
+		var calendar = new FullCalendar.Calendar(calendarEl, {
+			initialView: 'dayGridMonth',
+			events:'/calendar-data'
+		});
+		calendar.render();
+	});
+</script>
+
+<div id='calendar'></div>
