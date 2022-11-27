@@ -18,12 +18,12 @@ permalink: /calendar-data/
 Add , if there is one or more talks
 {% endcomment %}
 
-{%unless site.talks.size < 1 %},{%endunless%}
+{%unless site.talks.size == 0 %},{%endunless%}
 
 {% for talk in site.talks %}
 	{
 		"title":"{{talk.title}}",
-		"start": "{{talk.date | date:"%FT%T%:z"}}",
+		"start": "{% if talk.talk_date != nil %}{{talk.talk_date | date:"%FT%T%:z"}}{% else %}{{talk.date | date:"%FT14:00:00%:z"}}{% endif %}",
 		"url": "{{talk.url}}",
 		"backgroundColor": "#d35400"
 	}{%unless forloop.last %},{%endunless%}
