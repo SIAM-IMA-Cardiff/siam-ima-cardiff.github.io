@@ -4,15 +4,21 @@ layout: body
 
 <section>
 
-	{% if page.category == "news" %}
-		<div class="post-date">posted {{ page.date | date_to_string }}</div>
-	{% endif %}
-	{% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
-	{{ content }}
+	<p>
+		{% if page.location != nil %}
+			<b>Time and date</b>: {{ page.talk_date | date: "%-d %B %Y at %l:%M %P" }}
+		{% else %}
+			<b>Date</b>: {{ page.date | date_to_long_string }}
+		{% endif %}
+		{% if page.location != nil %}
+			| <b>Location</b>: {{page.location}}
+		{% endif %}
+		{% if page.speaker != nil %}
+			| <b>Speaker</b>: {{page.speaker}}
+		{% endif %}
+	</p>
 
-	{% assign post = page %}
-	{% assign post_id = "post" %}
-	{% include media-attachments.html %}
+	{{ content }}
 
 	<div class="clear-floats"/>
 

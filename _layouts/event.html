@@ -1,0 +1,22 @@
+---
+layout: body
+---
+
+<section>
+
+	<p>
+		<b>Time and date</b>: {{ page.event_date | date: "%-d %B %Y at %l:%M %P" }}
+		{% if page.location != nil %}
+			{% if page.location_map != nil %}
+				| <b>Location</b>: <a href="{{page.location_map}}">{{page.location}}</a>
+			{% else %}
+				| <b>Location</b>: {{page.location}}
+			{% endif %}
+		{% endif %}
+	</p>
+
+	{{ content }}
+
+	<div class="clear-floats"/>
+
+</section>
