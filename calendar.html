@@ -9,13 +9,26 @@ permalink: /calendar/
 <script src="{{ '/assets/fullcalendar/main.js' | relative_url }}"></script>
 
 <script>
+	function changeView(screenWidth, calendar) {
+		if(screenWidth < 800){
+			calendar.changeView('listWeek');
+		} else {
+			calendar.changeView('dayGridMonth');
+		}
+	}
 	document.addEventListener('DOMContentLoaded', function() {
 		var calendarEl = document.getElementById('calendar');
 		var calendar = new FullCalendar.Calendar(calendarEl, {
 			initialView: 'dayGridMonth',
-			events:'/calendar-data'
+			events:'/calendar-data',
+			themeSystem: 'bootstrap5'
 		});
 		calendar.render();
+		changeView(window.innerWidth, calendar);
+
+		window.addEventListener('resize', function(event) {
+			changeView(window.innerWidth, calendar);
+		}, true);
 	});
 </script>
 

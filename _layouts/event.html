@@ -4,19 +4,10 @@ layout: body
 
 <section>
 
-	{% if page.category == "news" %}
-		<div class="post-date">posted {{ page.date | date_to_string }}</div>
-	{% endif %}
-	{% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
-	{{ content }}
+	<p><b>Time and date</b>: {{ page.event_date | date: "%-d %B %Y at %l:%M %P" }} | <b>Location</b>: <a href="{{page.location_map}}">{{page.location}}</a></p>
 
-	{% assign post = page %}
-	{% assign post_id = "post" %}
-	{% include media-attachments.html %}
+	{{ content }}
 
 	<div class="clear-floats"/>
 
 </section>
-
-<!-- vim: ts=2:sts=2:sw=2:et:tw=80
--->

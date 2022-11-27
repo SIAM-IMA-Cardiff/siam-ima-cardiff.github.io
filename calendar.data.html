@@ -7,11 +7,25 @@ permalink: /calendar-data/
 [
 {% for event in site.events %}
 	{
-		"title":"{{event.title}}",
-		"start": "{{event.event_date}}",
-		"allDay":true,
-		"url":"{{event.url}}"
-	}
-	{%unless forloop.last %},{%endunless%}
+		"title": "{{event.title}}",
+		"start": "{{event.event_date | date:"%FT%T%:z"}}",
+		"url": "{{event.url}}",
+		"backgroundColor": "{% if event.type == "talk" %}#d35400{% elsif event.type == "social" %}#27ae60{% else %}#2e86c1{% endif %}"
+	}{%unless forloop.last %},{%endunless%}
+{% endfor %}
+
+{% comment %}
+Add , if there is one or more talks
+{% endcomment %}
+
+{%unless site.talks.size < 1 %},{%endunless%}
+
+{% for talk in site.talks %}
+	{
+		"title":"{{talk.title}}",
+		"start": "{{talk.date | date:"%FT%T%:z"}}",
+		"url": "{{talk.url}}",
+		"backgroundColor": "#d35400"
+	}{%unless forloop.last %},{%endunless%}
 {% endfor %}
 ]
