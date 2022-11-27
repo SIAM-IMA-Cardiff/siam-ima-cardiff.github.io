@@ -10,7 +10,7 @@ permalink: /calendar-data/
 		"title": "{{event.title}}",
 		"start": "{{event.event_date | date:"%FT%T%:z"}}",
 		"url": "{{event.url}}",
-		"backgroundColor": "{% if event.type == "talk" %}#d35400{% elsif event.type == "social" %}#27ae60{% else %}#2e86c1{% endif %}"
+		"backgroundColor": "{% if event.type == "social" %}#27ae60{% else %}#2e86c1{% endif %}"
 	}{%unless forloop.last %},{%endunless%}
 {% endfor %}
 
