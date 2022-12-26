@@ -4,15 +4,17 @@ layout: body
 
 <section>
 
-	{% if page.category == "news" %}
-		<div class="post-date">posted {{ page.date | date_to_string }}</div>
-	{% endif %}
 	{% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
 	{% if page.cover != nil %}
 		<div>
 			<img class="mx-auto d-block mw-100" src="{{ site.baseurl }}/images/news/{{ page.cover }}"/>
 		</div>
 	{% endif %}
+
+	<p>
+		<b>Date</b>: {{ page.date | date_to_long_string }}
+	</p>
+
 	{{ content }}
 
 	{% assign post = page %}
@@ -22,6 +24,3 @@ layout: body
 	<div class="clear-floats"/>
 
 </section>
-
-<!-- vim: ts=2:sts=2:sw=2:et:tw=80
--->
