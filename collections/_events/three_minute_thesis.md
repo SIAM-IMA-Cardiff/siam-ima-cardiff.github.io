@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "3-minute thesis"
-event_date: 2023-03-22
+event_date: 2023-03-08
 type: presentation
 ---
 
