@@ -7,4 +7,4 @@ location_map: https://goo.gl/maps/XW9LfVVNfRuvx9jUA
 type: social
 ---
 
-Our February PGR pub quiz will be taking place on Tuesday 28th! We will head over the the Pen & Wig for 7pm.
+Our February PGR pub quiz will be taking place on Tuesday 28th! We will head over to the Pen & Wig for 7pm.
