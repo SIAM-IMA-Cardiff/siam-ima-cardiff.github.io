@@ -16,7 +16,7 @@ permalink: /PGR-talks/
 				|
 			{% endif %}
 			<span class="badge bg-secondary">
-				{% if page.location != nil %}
+				{% if post.location != nil %}
 					{{ post.talk_date | date_to_string }}
 				{% else %}
 					{{ post.date | date_to_long_string }}
