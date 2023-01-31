@@ -15,7 +15,13 @@ permalink: /PGR-talks/
 				{{ post.speaker }}
 				|
 			{% endif %}
-			<span class="badge bg-secondary">{{ post.date | date_to_string }}</span>
+			<span class="badge bg-secondary">
+				{% if page.location != nil %}
+					{{ post.talk_date | date_to_string }}
+				{% else %}
+					{{ post.date | date_to_long_string }}
+				{% endif %}
+			</span>
 		</p>
 		<div class="talk-container overflow-hidden">
 			<div>
