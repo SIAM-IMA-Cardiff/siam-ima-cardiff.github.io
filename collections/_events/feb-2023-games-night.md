@@ -6,4 +6,4 @@ location: Abacws Staff room
 type: social
 ---
 
-Our Febuary PGR Games Night will be taking place on Tuesday 2nd! Join us at 5pm in the staff room and bring your favourite board / card games.
+Our Febuary PGR Games Night will be taking place on Tuesday 7th! Join us at 5pm in the staff room and bring your favourite board / card games.
