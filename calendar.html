@@ -19,6 +19,7 @@ permalink: /calendar/
 	document.addEventListener('DOMContentLoaded', function() {
 		var calendarEl = document.getElementById('calendar');
 		var calendar = new FullCalendar.Calendar(calendarEl, {
+			timeZone: 'Europe/London',
 			initialView: 'dayGridMonth',
 			events:'/calendar-data',
 			themeSystem: 'bootstrap5'
