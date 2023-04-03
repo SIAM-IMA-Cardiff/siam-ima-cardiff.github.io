@@ -7,7 +7,7 @@ permalink: /resources/
 
 ## Finding a PhD / PhD Information
 
-[SIAM-IMA cardiff](siam-ima@cardiff.ac.uk)  
+[SIAM-IMA cardiff](mailto:siam-ima@cardiff.ac.uk)  
 [Find a PhD](https://www.findaphd.com/)  
 [Mathematics postgraduate research](https://www.cardiff.ac.uk/mathematics/courses/postgraduate-research)  
 [Computer science postgraduate research](https://www.cardiff.ac.uk/computer-science/courses/postgraduate-research)
