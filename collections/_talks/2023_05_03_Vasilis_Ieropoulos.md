@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: "Machine Learning Threat Detection in Resource-Constrained Devices"
-speaker: Vassilis Ieropoulos
+speaker: Vasilis Ieropoulos
 talk_date: 2023-05-03 14:00
 location: Abacws 1.04
 ---
