@@ -2,7 +2,7 @@
 layout: event
 title:  "Bowling"
 event_date:   2023-05-30 18:00
-location:
+location: Superbowl UK Cardiff, Stadium Plaza, Wood St, Cardiff CF10 1LA
 location_map: https://goo.gl/maps/D9FqbtjcXxYRdH8r9
 type: social
 ---
