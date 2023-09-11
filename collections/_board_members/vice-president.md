@@ -3,7 +3,7 @@ name: Matthew Howells
 image: Matthew-Howells.jpeg
 function: Vice President
 email: howellsma@cardiff.ac.uk
-website: https://www.cardiff.ac.uk/people/research-students/view/2575967-howells-matthew
+website: https://profiles.cardiff.ac.uk/research-staff/howellsma
 order: 2
 ---
 

@@ -2,6 +2,8 @@
 name: Michela Corradini
 image: Michela-Corradini.jpeg
 function: President
+email: CorradiniM@cardiff.ac.uk
+website: https://profiles.cardiff.ac.uk/research-staff/corradinim
 order: 1
 ---
 
