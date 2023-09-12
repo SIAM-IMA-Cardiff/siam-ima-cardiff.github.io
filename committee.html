@@ -13,7 +13,11 @@ permalink: /committee/
 			<div class="col">
 			<div id="{{ member_id }}" class="card h-100">
 				<div class="committee-image-container p-2">
-					<img src="{{ site.baseurl }}/images/Committee/{{ board_member.image }}" class="committee-image rounded mx-auto d-block"/>
+					{% if board_member.image %}
+						<img src="{{ site.baseurl }}/images/Committee/{{ board_member.image }}" class="committee-image rounded mx-auto d-block"/>
+					{% else %}
+						<img src="{{ site.baseurl }}/images/Committee/Default.png" class="committee-image rounded mx-auto d-block"/>
+					{% endif %}
 				</div>
 				<div class="card-body">
 					<h3 class="card-title">{{ board_member.name }}</h3>
