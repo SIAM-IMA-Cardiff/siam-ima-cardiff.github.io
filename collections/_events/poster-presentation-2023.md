@@ -6,8 +6,8 @@ location: Abacws/5.05
 type: presentation
 ---
 
-To welcome new and returning PGR students to the department, we will be hosting a poster presentation on October 4th, featuring work from current students from both Maths and Computer Science. The session will run from 14:00-16:00.
+We're excited to invite you to our PGR Poster Event session on Wednesday 4th October 2023, which will showcase the high-quality research carried out by PGRs within Mathematics and Computer Science at Cardiff. The event will be held from 2pm-5pm in Abacws Room 5.05.
 
-If you wish to submit a poster, please email us with your poster title, and a brief abstract, by 22nd of September.
+It will be a fantastic opportunity for you to learn about the research carried out by PGRs here, and will also serve as a nice ice-breaker session for the new starters to meet everyone and settle in.
 
-This is a great opportunity to meet the current students, get a taste for what research life is like and get involved in postgrad life, so we hope to see you there.
+We hope you'll drop by and show your support!
