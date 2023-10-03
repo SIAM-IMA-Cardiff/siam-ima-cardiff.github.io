@@ -1,7 +1,7 @@
 ---
 layout: event
 title:  "Games night"
-event_date: 2023-10-03 17:00
+event_date: 2023-10-10 17:00
 location: Abacws Staff room
 type: social
 ---

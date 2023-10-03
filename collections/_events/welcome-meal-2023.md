@@ -1,7 +1,7 @@
 ---
 layout: event
 title:  "Welcome meal"
-event_date: 2022-10-18
+event_date: 2023-10-18
 location: TBC
 location_map:
 type: social

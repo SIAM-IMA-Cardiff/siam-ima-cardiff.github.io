@@ -1,7 +1,7 @@
 ---
 layout: event
 title:  "Quiz"
-event_date: 2023-10-17 19:00
+event_date: 2023-10-24 19:00
 location: Pen & Wig, 1 Park Grove, Cardiff CF10 3BJ
 location_map: https://goo.gl/maps/XW9LfVVNfRuvx9jUA
 type: social
