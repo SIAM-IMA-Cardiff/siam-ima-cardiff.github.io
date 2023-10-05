@@ -19,8 +19,9 @@ permalink: /resources/
 
 ## Thesis
 [Preparing your thesis](https://intranet.cardiff.ac.uk/students/study/postgraduate-research-support/thesis-and-examinations/preparing-your-thesis)  
-[Unofficial Cardiff University Thesis template](https://github.com/joshwillmoore1/Unofficial_Cardiff_Mathematics_Thesis_Template)
-
+### (Unofficial) Thesis templates
+[Template 1](https://github.com/joshwillmoore1/Unofficial_Cardiff_Mathematics_Thesis_Template)
+[Template 2](https://github.com/JackFurby/Cardiff-uni-PhD-thesis-template)
 
 ## Mental health
 
