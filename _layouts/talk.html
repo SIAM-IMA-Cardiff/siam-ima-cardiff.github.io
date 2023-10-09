@@ -5,7 +5,7 @@ layout: body
 <section>
 
 	<p>
-		{% if page.location != nil %}
+		{% if page.talk_date != nil %}
 			<b>Time and date</b>: {{ page.talk_date | date: "%-d %B %Y at %l:%M %P" }}
 		{% else %}
 			<b>Date</b>: {{ page.date | date_to_long_string }}
