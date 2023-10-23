@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: "Breaking the sound barrier: Enhancing Deaf Accessibility in AudioVisual Media"
-talk_date: 2023-10-25 14:00
+talk_date: 2023-10-25 15:00
 speaker: Max Curtis-Hedges
 location: Abacws 1.04
 ---
