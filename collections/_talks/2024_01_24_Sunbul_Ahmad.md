@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: "Towards a Robotic Solution to Improve Oral Medication Adherence in Older Adults"
-talk_date: 2023-01-24 14:00
+talk_date: 2024-01-24 14:00
 speaker: Sunbul Ahmad
 location: Abacws 1.04
 ---
