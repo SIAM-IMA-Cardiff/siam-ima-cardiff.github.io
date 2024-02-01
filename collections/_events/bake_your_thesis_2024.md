@@ -1,7 +1,7 @@
 ---
 layout: event
 title:  "Bake your thesis"
-event_date:   2024-02-21 15:00
+event_date: 2024-02-21 15:00
 location: Abacws 5.05
 type: social
 ---
