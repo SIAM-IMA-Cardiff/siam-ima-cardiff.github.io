@@ -1,7 +1,7 @@
 ---
 layout: event
 title:  "Games night"
-event_date: 2023-03-05 17:00
+event_date: 2024-03-05 17:00
 location: Abacws Staff room
 type: social
 ---
