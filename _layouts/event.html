@@ -6,6 +6,9 @@ layout: body
 
 	<p>
 		<b>Time and date</b>: {{ page.event_date | date: "%-d %B %Y at %l:%M %P" }}
+		{% if page.event_date_end != nil %}
+			| <b>End</b>: {{ page.event_date_end | date: "%-d %B %Y at %l:%M %P" }}
+		{% endif %}
 		{% if page.location != nil %}
 			{% if page.location_map != nil %}
 				| <b>Location</b>: <a href="{{page.location_map}}">{{page.location}}</a>
