@@ -12,7 +12,7 @@ The conference was well attended, bringing together PhD students from multiple S
 
 The four plenary talks covered a wide range of mathematical areas and were given by:
 
-- Professor Igor Podlubny, from the Technical University of Ko\v{s}ice, who presented a talk on fractional calculus;
+- Professor Igor Podlubny, from the Technical University of Košice, who presented a talk on fractional calculus;
 - Professor Claudia Garetto, from Queen Mary University of London, who gave a talk about higher order hyperbolic equations with multiplicities;
 - Doctor Isaac Chenchiah, from the University of Bristol, gave a presentation about morphing triangular frameworks;
 - Doctor Matthew Jones, from Nationwide Building Society, who gave a talk about the applications of Artificial Intelligence in financial services.
