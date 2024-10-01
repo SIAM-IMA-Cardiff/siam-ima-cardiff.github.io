@@ -1,10 +1,10 @@
 ---
-name: Michela Corradini
-image: Michela-Corradini.jpeg
+name: Matthew Howells
+image: Matthew_Howells.jpg
 function: President
-email: CorradiniM@cardiff.ac.uk
-website: https://profiles.cardiff.ac.uk/research-staff/corradinim
+email: howellsma@cardiff.ac.uk
+website: https://profiles.cardiff.ac.uk/research-staff/howellsma
 order: 1
 ---
 
-Hi, my name is Michela and I’m a fourth year maths PhD student in the Statistics group, funded by EPSRC. My research lies in extreme value theory, a branch of statistics which seeks to assess the probability of extreme events, which are typically rare and can have a big impact on infrastructure and society. In particular, I’m focusing on translating established kernel-based methods to an extremes framework in order to assess extremal dependence in high-dimensional extremes. In my spare time, I’m a keen swimmer and an avid reader.
+Hi, I’m Matthew and I am a fourth-year Mathematics PhD student in the Operational Research group at Cardiff University. My project is jointly funded by the EPSRC and Cardiff and Vale University Health Board. Currently, I’m working on a hybrid simulation model for the T&O department at the health board, that captures the dynamics between population health and patient flow in the department. Doing so seeks to help reduce the pressure the service’s elective care pathway is under. In my spare time, I can be found reading, gaming, or listening to Taylor Swift.

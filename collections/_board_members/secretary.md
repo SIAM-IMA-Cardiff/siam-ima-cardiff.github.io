@@ -7,4 +7,4 @@ website:
 order: 3
 ---
 
-I am a second year part-time PhD student in COMSC doing research into entertainment value and combinatorial optimisation, specifically looking at how vote reveal orders can be optimised for entertainment (in other words, I watch Eurovision and complain about the votes). I am particularly interested in operational research and multi-objective optimisation. I like to play pool and poker (I'm usually up for a game at PGR game nights and pub trips) and also do bouldering and mountain biking in my free time.
+I am a third year part-time PhD student in COMSC doing research into measuring and maximising entertainment value. I look at voting problems such as Eurovision and aim to maximise entertainment through combinatorial optimisation. I'm currently investigating how scoring rules could be adjusted in competitions such as sports leagues and motorsports to encourage greater competition while reducing the risk of a competitor winning the tournament early. I like playing poker and pool, so you might see me at PGR game nights, or at the pub on a Friday evening!

@@ -1,9 +1,9 @@
 ---
-name: Prachi Sahjwani
-image: Prachi-Sahjwani.jpg
+name: Daniel Hambly
+image: Daniel_Hambly.jpeg
 function: Treasurer
-email: sahjwanip@cardiff.ac.uk
-website: https://profiles.cardiff.ac.uk/research-staff/sahjwanip
-order: 4
+email: HamblyDJ@cardiff.ac.uk
+website: https://profiles.cardiff.ac.uk/research-staff/hamblydj
+
 ---
-I'm a third-year PhD student in the School of Mathematics, where I'm part of the analysis research group. My research focuses on geometric analysis, particularly the stability of various geometric inequalities. I use tools like geometric flows and PDE theory to understand problems in stability. Outside of my academic life, I enjoy spending time outdoors, exploring the beautiful UK landscapes on hikes, and taking walks around the city. In my free time, I like to hang out with friends, hosting game nights, and I have a growing collection of plants that I care for.
+Hi, my name Is Daniel and I am a 3rd Year Mathematics PhD student in the Operational Research group at Cardiff University. My research is in graph theory, specifically using heuristics and metaheuristics to try and find solutions in polynomial time for NP-Hard problems. Outside of PhD life, I love to watch football (this is basically a full-time job and involves watching the highlights of games that I have already seen, reading endless tweets, and setting up my FPL team). I also go to the gym, the cinema, and the beach, and I will very rarely refuse a cheeky trip to the pub after work.

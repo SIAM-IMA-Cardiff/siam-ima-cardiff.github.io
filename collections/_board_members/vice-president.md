@@ -1,10 +1,10 @@
 ---
-name: Matthew Howells
-image: Matthew-Howells.jpeg
+name: Elin Williams
+image: Elin_Williams.jpg
 function: Vice President
-email: howellsma@cardiff.ac.uk
-website: https://profiles.cardiff.ac.uk/research-staff/howellsma
+email: WilliamsEH6@cardiff.ac.uk
+website: https://profiles.cardiff.ac.uk/staff/williamseh6
 order: 2
 ---
 
-Hi, I’m Matthew and I am a 3rd year Mathematics PhD student in the Operational Research group at Cardiff University. My project is jointly funded by the EPSRC and Cardiff and Vale University Health Board. Currently I'm working on a hybrid simulation model for the T&O department at the health board, that captures the dynamics between population health and patient flow in the department. Doing so seeks to help reduce the pressure the service's elective care pathway is under. In my spare time, I can be found reading, gaming, or listening to Taylor Swift.
+Hi, I’m Elin and I am a second year PhD student in the School of Mathematics at Cardiff University, and I am a part of the Operational Research group. My research is funded by the Gwent Area Planning Board where the objective of the project is to understand how alcohol drinking behaviours affect healthcare, social care and criminal justice services in Gwent, and to explore demand and capacity planning. I enjoy spending my free time playing the harp or singing. I am also a foodie and enjoy trying new restaurants in Cardiff.
