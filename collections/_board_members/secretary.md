@@ -2,8 +2,8 @@
 name: Aric Fowler
 image: Aric-Fowler.jpeg
 function: Secretary
-email:
-website:
+email: FowlerAA@cardiff.ac.uk
+website: https://profiles.cardiff.ac.uk/staff/fowleraa
 order: 3
 ---
 
