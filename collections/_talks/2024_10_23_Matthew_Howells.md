@@ -3,6 +3,7 @@ layout: talk
 title: "Clinical Pathway Modelling of a Trauma & Orthopaedics Department"
 talk_date: 2024-10-23 14:00
 speaker: Matthew Howells
+location: Abacws 3.38
 ---
 
 The disruptions caused by COVID-19 continue to exacerbate backlogs in elective patient care across many countries, particularly in specialties like Orthopaedics. Orthopaedics faces dual pressures from these backlogs and an ageing population, necessitating efficient solutions. This research, conducted in collaboration with Cardiff and Vale University Health Board’s Trauma & Orthopaedics (T&O) department, aims to model the clinical pathways (CPs) within the specialty to alleviate system-wide pressures.
