@@ -1,6 +1,7 @@
 ---
 layout: talk
 title: "Clinical Pathway Modelling of a Trauma & Orthopaedics Department"
+talk_date: 2024-10-23 14:00
 speaker: Matthew Howells
 ---
 

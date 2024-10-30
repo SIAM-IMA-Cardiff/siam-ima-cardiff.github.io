@@ -1,6 +1,7 @@
 ---
 layout: talk
 title: "Deaf Play: A Narrative thesis on social play contexts of DHH players"
+talk_date: 2024-10-31 14:00
 speaker: Max Curtis-Hedges
 ---
 
