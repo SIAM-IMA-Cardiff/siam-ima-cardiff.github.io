@@ -1,10 +1,6 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: "PGR Poster Session October 2024"
-=======
-title: "PGR Poster Session - October 2024"
->>>>>>> ccc69b2e27eaeed5345e25012b2aa8d6b87c605f
 cover: 2024_10_02.jpg
 ---
 
