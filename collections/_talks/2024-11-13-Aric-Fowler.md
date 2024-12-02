@@ -2,7 +2,7 @@
 layout: talk
 title: "What is Entertainment?"
 talk_date: 2024-11-13 14:00
-speaker: Max Curtis-Hedges
+speaker: Aric Fowler
 location: Abacws 3.38
 ---
 
