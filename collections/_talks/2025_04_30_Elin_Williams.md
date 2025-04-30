@@ -1,0 +1,9 @@
+---
+layout: talk
+title: "An overview of the application of OR methods to model alcohol consumption and its consequences, and a geographical analysis of alcohol consumption in Wales"
+talk_date: 2025-04-30 14:00
+speaker: Elin Williams
+location: Abacws 3.38
+---
+
+Alcohol consumption is a recognised public health issue, and it is believed that the resultant harms are rising since the COVID-19 pandemic. Alcohol drinking affects healthcare including the demands of alcohol-attributable diseases; mental health and housing services place demands on social care; and demands resulting from violent and aggressive behaviours are placed on the criminal justice system. This talk will present an overview of the application of operational research (OR) methods to model alcohol consumption and its consequences, specifically within healthcare, social care, and criminal justice settings. Some OR methods are utilised frequently in alcohol consumption literature, namely agent-based modelling (ABM), Markov models, and network analysis. The recurrence of ABM and network analysis highlight the social component of alcohol consumption. Other methods such as system dynamics are utilised less frequently but could be useful models to gain a whole-system perspective. Alcohol consumption data collected in Wales can be analysed geographically by health board, local authority, and area deprivation, to gain insights into the diverse alcohol drinking patterns reported, and how resultant harms vary geographically and by consumption behaviour. Based on the literature evidence, alcohol consumption and alcohol-related harms data, and collaboration with stakeholders, an initial proposal on how to model alcohol consumption and its consequences across the whole system is presented.
