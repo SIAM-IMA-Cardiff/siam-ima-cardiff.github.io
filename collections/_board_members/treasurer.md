@@ -1,9 +1,10 @@
 ---
-name: Daniel Hambly
-image: Daniel_Hambly.jpeg
-function: Treasurer
-email: HamblyDJ@cardiff.ac.uk
-website: https://profiles.cardiff.ac.uk/research-staff/hamblydj
-order: 4
+name: Harry Steed
+image: Harry_Steed.jpg
+function: Treasurer / Webmaster
+email: SteedHA@cardiff.ac.uk
+website: https://profiles.cardiff.ac.uk/research-staff/steedha
+order: 5
 ---
-Hi, my name Is Daniel and I am a 3rd Year Mathematics PhD student in the Operational Research group at Cardiff University. My research is in graph theory, specifically using heuristics and metaheuristics to try and find solutions in polynomial time for NP-Hard problems. Outside of PhD life, I love to watch football (this is basically a full-time job and involves watching the highlights of games that I have already seen, reading endless tweets, and setting up my FPL team). I also go to the gym, the cinema, and the beach, and I will very rarely refuse a cheeky trip to the pub after work.
+
+Hi, my name is Harry and I am a 1st year Mathematics PhD student in the Applied and Computational Research group at Cardiff University. My research focuses on the mathematical modeling of biological processes, specifically simulating cell motion through a process known as blebbing. I hope to find a relationship between cell motion and local topographic environments that can be used to improvement medical treatments or slow down the rate of disease spreading within the body. In my free time I enjoy climbing, hiking and playing video games.

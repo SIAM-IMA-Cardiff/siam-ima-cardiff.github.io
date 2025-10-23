@@ -1,9 +1,9 @@
 ---
-name: Rhys James
-image: Rhys_James.jpg
+name: Alesia Zverovich
+image: Alexandra_Zverovich.jpg
 function: Equality Officer
-email: jamesr41@cardiff.ac.uk
-order: 6
+email: zverovicha@cardiff.ac.uk
+order: 4
 ---
 
-Hi, I’m Rhys, a second-year PhD student in mathematics, in the applied and computational math group. My research focuses on the numerical modeling of granular flows using continuum methods. I aim to develop more efficient and accurate techniques that can help mitigate the damage caused by natural disasters and enhance the efficiency of industrial processes. In my free time, I enjoy playing games—both board games and video games—as well as watching various sports, movies and tv shows. 
+Hi, I’m Alesia and I am a fourth-year Mathematics PhD student in the Statistics and Data Science Research group at Cardiff University. My research project is funded by the Heilbronn Institute for Mathematical Research. I’m currently working at the interface of optimisation, machine learning and numerical linear algebra, specifically in finding the solutions to large-scale linear systems of equations using iterative methods, and their applications. In my spare time, I enjoy being in nature, especially around animals. I also like playing games, dancing and creating arts & crafts.
