@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: "Optimising a Mathematical model of Entertainment"
-talk_date: 2025-012-03 14:00
+talk_date: 2025-12-03 14:00
 speaker: Aric Fowler
 location: Abacws 4.35
 ---
