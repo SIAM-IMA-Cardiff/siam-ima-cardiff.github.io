@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Optimising a Mathematical model of Entertainment"
+title: "An Extended Theory of Ensemble diversity"
 talk_date: 2026-02-04 14:00
 speaker: Thomas Greatrix
 location: Abacws 0.04
