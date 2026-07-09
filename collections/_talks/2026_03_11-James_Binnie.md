@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "The Chordal Distance Transform of Geometric Loops its Persistent Homology."
+title: "The Chordal Distance Transform of Geometric Loops its Persistent Homology"
 talk_date: 2026-03-11 14:00
 speaker: James Binnie
 location: Abacws 4.35

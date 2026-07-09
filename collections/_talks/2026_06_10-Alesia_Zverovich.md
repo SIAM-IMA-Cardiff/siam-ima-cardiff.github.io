@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Sparse kernel density estimation using stochastic particle flows."
+title: "Sparse kernel density estimation using stochastic particle flows"
 talk_date: 2026-06-10 14:00
 speaker: Alesia Zverovich
 location: Abacws 1.04
